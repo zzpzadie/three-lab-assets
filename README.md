@@ -9,6 +9,8 @@
 ```
 three-lab-assets/
   models/quit.glb
+  models/flower.glb
+  models/butterfly.glb
   hdr/grasslands_sunset_4k.hdr
   hdr/qwantani_dusk_2_puresky_4k.hdr
   thumbs/*.jpg
