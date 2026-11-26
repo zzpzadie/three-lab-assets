@@ -62,6 +62,19 @@ const urls = [1, 2, 3, 4, 5, 6].map(
 thumb: FILE_HOST + 'thumbs/01-basics.jpg'
 ```
 
+## 目录页
+
+打开 https://zzpzadie.github.io/three-lab-assets/ 可按文件夹折叠浏览资源。
+
+清单文件：`manifest.json`。新增/删除资源后重新生成：
+
+```bash
+node build-manifest.mjs
+git add manifest.json
+git commit -m "chore: refresh asset manifest"
+git push
+```
+
 ## 本地预览
 
 用任意静态服务器打开本目录即可，例如：
